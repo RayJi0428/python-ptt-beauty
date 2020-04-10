@@ -60,7 +60,7 @@ for i in range(len(news_tag)):
     title = news_tag[i].text.strip()
 
     # 略過不要的標題
-    if '[公告]' in title or '[帥哥]' in title:
+    if '公告' in title or '帥哥' in title or '肉特' in title or '大尺碼' in title:
         continue
 
     # 略過已處理標題
